@@ -8,7 +8,7 @@ import tempfile
 import time
 
 # Set Google API Key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho"
+os.environ['GOOGLE_API_KEY'] = ""
 
 def create_agent_from_csv(file_path):
     llm = ChatGoogleGenerativeAI(model='gemini-pro', temperature=0)
