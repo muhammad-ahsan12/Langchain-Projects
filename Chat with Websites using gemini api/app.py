@@ -16,8 +16,8 @@ from langchain.prompts.chat import (
 )
 import os
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho'
-llm = ChatGroq(model="llama-3.1-8b-instant", groq_api_key="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")
+os.environ['GOOGLE_API_KEY'] = ''
+llm = ChatGroq(model="llama-3.1-8b-instant", groq_api_key="")
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 # Create a prompt
