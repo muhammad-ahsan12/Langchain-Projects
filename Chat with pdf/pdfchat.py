@@ -10,7 +10,7 @@ from langchain.prompts import PromptTemplate
 
 
 # Replace with your actual API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho"
+os.environ['GOOGLE_API_KEY'] = ""
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 llm = ChatGoogleGenerativeAI(model='gemini-1.5-pro')
