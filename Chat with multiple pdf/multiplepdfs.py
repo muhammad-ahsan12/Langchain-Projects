@@ -27,7 +27,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.memory import ConversationBufferMemory
 import os
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho'
+os.environ['GOOGLE_API_KEY'] = ''
 
 import zipfile
 import os
