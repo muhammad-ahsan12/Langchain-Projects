@@ -1,4 +1,4 @@
 langchain
-langchain_google_genai
+langchain-google-genai
 streamlit
 PyPDF2
