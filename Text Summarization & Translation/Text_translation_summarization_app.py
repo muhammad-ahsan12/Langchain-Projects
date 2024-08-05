@@ -6,7 +6,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 
 # Set up the environment
-os.environ['GOOGLE_API_KEY'] = ''
+os.environ['GOOGLE_API_KEY'] = 'AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho'
 
 # Initialize the model
 llm = ChatGoogleGenerativeAI(model='gemini-1.5-pro')
