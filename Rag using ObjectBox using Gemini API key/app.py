@@ -9,7 +9,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_objectbox.vectorstores import ObjectBox
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho"
+os.environ['GOOGLE_API_KEY'] = ""
 
 prompt_template = """
 Use the following pieces of context to answer the question,
