@@ -1,4 +1,4 @@
-streamlit
+streamlit==1.37.1
 pandas
 pandasai
 langchain-google-genai==1.0.10
