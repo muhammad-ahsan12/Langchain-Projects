@@ -1,4 +1,4 @@
 streamlit
 pandas
 pandasai
-langchain_google_genai
+langchain-google-genai==1.0.10
